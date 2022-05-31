@@ -1,0 +1,27 @@
+i = 1
+while i<= 1:
+
+    print("Welcome to the calculator")
+    print("choose the  operations = +,-,*,/,%")
+    op = (input("= "))
+    if op == "%":
+        fs = int(input("enter your obtain marks = "))
+        sd = int(input("enter your maximum marks = "))
+        print(" show your percentage = ", fs / sd * 100)
+    else:
+        fs = int(input("enter first number = "))
+        sd = int(input("enter second number = "))
+
+    if op == "+":
+        print(" Answer  = ", fs + sd)
+    elif op == "-":
+        print(" Answer  = ", fs - sd)
+    elif op == "*":
+        print(" Answer  = ", fs * sd)
+    elif op == "/":
+        print(" Answer  = ", fs / sd)
+    else:
+        print("please enter a valid input ")
+    i = int(input("press 1 for again and press 2 for exit\n="))
+
+
